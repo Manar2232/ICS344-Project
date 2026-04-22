@@ -1,4 +1,3 @@
-const serialize = require('node-serialize');
 const { LambdaClient, InvokeCommand } = require("@aws-sdk/client-lambda");
 const { CognitoIdentityProviderClient, AdminGetUserCommand } = require("@aws-sdk/client-cognito-identity-provider");
 const jose = require('node-jose');
